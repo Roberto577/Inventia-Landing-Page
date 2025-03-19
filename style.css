@@ -2,6 +2,10 @@ header {
     background: linear-gradient(to right, #007bff, #0056b3);
 }
 
+.bg-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+}
+
 /* Section Caracteristicas */
 .features-section {
     background-color: #f8f9fa;
@@ -31,7 +35,7 @@ header {
 
 .software-showcase {
     padding: 100px 0;
-    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+    /* background: linear-gradient(to right, #007bff, #0056b3); */
     color: white;
 }
 
@@ -40,8 +44,8 @@ header {
 }
 
 .register-btn {
-    background: white;
-    color: #007bff;
+    background: #007bff;
+    color: white;
     font-weight: bold;
     padding: 12px 25px;
     border-radius: 8px;
